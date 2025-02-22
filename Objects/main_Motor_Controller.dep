@@ -1,0 +1,52 @@
+Dependencies for Project 'main', Target 'Motor_Controller': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\main.c)(0x67B57CC5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Motor_Controller -I ./Drivers -I ./FreeRTOS -I ./Tasks-I./RTE/Device/STM32F103C8-I./RTE/_Motor_Controller-ID:/Keil/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_-o ./objects/main.o -MMD)
+I (main.h)(0x676D9845)
+I (Drivers\GPIO.h)(0x675C0CAE)
+I (D:\Keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x67192C4B)
+I (RTE\_Motor_Controller\RTE_Components.h)(0x67B52DD3)
+I (D:\Keil\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BE698)
+I (D:\Keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x67192C4B)
+I (Drivers\RCC.h)(0x676D9997)
+I (Drivers\USART.h)(0x675C0CAE)
+I (Drivers\TIM.h)(0x675C0CAE)
+F (E:\logic_analyzer\STM32_LogicAnalyzer\Code\Include\main.h)(0x676D9845)()
+F (E:\logic_analyzer\STM32_LogicAnalyzer\Code\Source\USART.c)(0x675C0CAE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Motor_Controller -I ./Drivers -I ./FreeRTOS -I ./Tasks-I./RTE/Device/STM32F103C8-I./RTE/_Motor_Controller-ID:/Keil/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_-o ./objects/usart.o -MMD)
+I (Drivers\USART.h)(0x675C0CAE)
+I (D:\Keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x67192C4B)
+I (RTE\_Motor_Controller\RTE_Components.h)(0x67B52DD3)
+I (D:\Keil\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BE698)
+I (D:\Keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x67192C4B)
+I (Drivers\RCC.h)(0x676D9997)
+F (E:\logic_analyzer\STM32_LogicAnalyzer\Code\Source\TIM.c)(0x675C0CAE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Motor_Controller -I ./Drivers -I ./FreeRTOS -I ./Tasks-I./RTE/Device/STM32F103C8-I./RTE/_Motor_Controller-ID:/Keil/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_-o ./objects/tim.o -MMD)
+I (Drivers\TIM.h)(0x675C0CAE)
+I (D:\Keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x67192C4B)
+I (RTE\_Motor_Controller\RTE_Components.h)(0x67B52DD3)
+I (D:\Keil\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BE698)
+I (D:\Keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x67192C4B)
+I (Drivers\RCC.h)(0x676D9997)
+F (E:\logic_analyzer\STM32_LogicAnalyzer\Code\Source\RCC.c)(0x676D9997)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Motor_Controller -I ./Drivers -I ./FreeRTOS -I ./Tasks-I./RTE/Device/STM32F103C8-I./RTE/_Motor_Controller-ID:/Keil/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_-o ./objects/rcc.o -MMD)
+I (Drivers\RCC.h)(0x676D9997)
+I (D:\Keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x67192C4B)
+I (RTE\_Motor_Controller\RTE_Components.h)(0x67B52DD3)
+I (D:\Keil\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BE698)
+I (D:\Keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x67192C4B)
+F (E:\logic_analyzer\STM32_LogicAnalyzer\Code\Include\USART.h)(0x675C0CAE)()
+F (E:\logic_analyzer\STM32_LogicAnalyzer\Code\Include\TIM.h)(0x675C0CAE)()
+F (E:\logic_analyzer\STM32_LogicAnalyzer\Code\Include\RCC.h)(0x676D9997)()
+F (E:\logic_analyzer\STM32_LogicAnalyzer\Code\Include\GPIO.h)(0x675C0CAE)()
+F (.\Tasks\encoder_task.c)(0x67B9DA21)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Motor_Controller -I ./Drivers -I ./FreeRTOS -I ./Tasks-I./RTE/Device/STM32F103C8-I./RTE/_Motor_Controller-ID:/Keil/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_-o ./objects/encoder_task.o -MMD)
+F (.\Tasks\encoder_task.h)(0x67B9DA16)()
+F (.\Tasks\motor_task.c)(0x67B9D9CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Motor_Controller -I ./Drivers -I ./FreeRTOS -I ./Tasks-I./RTE/Device/STM32F103C8-I./RTE/_Motor_Controller-ID:/Keil/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_-o ./objects/motor_task.o -MMD)
+F (.\Tasks\motor_task.h)(0x67B9D9E6)()
+F (.\Tasks\uart_task.c)(0x67B9DA02)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Motor_Controller -I ./Drivers -I ./FreeRTOS -I ./Tasks-I./RTE/Device/STM32F103C8-I./RTE/_Motor_Controller-ID:/Keil/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_-o ./objects/uart_task.o -MMD)
+F (.\Tasks\uart_task.h)(0x67B9D9F7)()
+F (.\FreeRTOS\FreeRTOS.c)(0x67B9DA55)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Motor_Controller -I ./Drivers -I ./FreeRTOS -I ./Tasks-I./RTE/Device/STM32F103C8-I./RTE/_Motor_Controller-ID:/Keil/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_-o ./objects/freertos.o -MMD)
+F (.\FreeRTOS\FreeRTOS.h)(0x67B9DA47)()
+F (RTE/Device/STM32F103C8/RTE_Device.h)(0x67192C4C)()
+F (RTE/Device/STM32F103C8/startup_stm32f10x_md.s)(0x67192C4B)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/STM32F103C8-I./RTE/_Motor_Controller-ID:/Keil/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 541" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_md.o)
+F (RTE/Device/STM32F103C8/system_stm32f10x.c)(0x67192C4B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Motor_Controller -I ./Drivers -I ./FreeRTOS -I ./Tasks-I./RTE/Device/STM32F103C8-I./RTE/_Motor_Controller-ID:/Keil/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_-o ./objects/system_stm32f10x.o -MMD)
+I (D:\Keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x67192C4B)
+I (RTE\_Motor_Controller\RTE_Components.h)(0x67B52DD3)
+I (D:\Keil\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BE698)
+I (D:\Keil\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x67192C4B)
